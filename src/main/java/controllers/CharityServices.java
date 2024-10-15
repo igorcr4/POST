@@ -24,7 +24,7 @@ public class CharityServices {
 
     public Volunteers addVolunteer(Volunteers voluntar){
         if (volunteers.getPhoneNumber().length() == 10){
-            return repository.save(voluntar);  
+            return repository.save(voluntar);  //am adaugat un exemplu de validare
         }
         return null;
     }
